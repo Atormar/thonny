@@ -1,8 +1,11 @@
-x = input("Dime un numero y te dire si es multiplo de tres:")
-def multiplo():
-    c= x%3
-    if c<1:
-        print("Es multiplo de tres")
+x = input("Dime dos numeros y te dire cual es mayor, dime el primer numero:")
+y = input("Dime otro numero
+def Mayor():
+    if x<y:
+        print("el segundo es mayor")
     else:
-        print("no es multiplo de tres")
-multiplo()
+        if x>y:
+                print("el primero es mayor")
+        else:
+                print("son iguales")
+Mayor()
